@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMComic 下载器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JMComic 漫画下载器</h1>
+        <div class="description">
+            <p>这是一个基于JMComic-Crawler-Python项目的网页下载器，可以方便地下载禁漫天堂的漫画。</p>
+        </div>
+        
+        <div class="input-section">
+            <label for="comic-id">漫画ID:</label>
+            <input type="text" id="comic-id" placeholder="请输入漫画ID，例如：422866">
+            <button id="download-btn">下载</button>
+        </div>
+        
+        <div class="examples">
+            <h3>使用示例：</h3>
+            <ul>
+                <li>输入漫画ID如 <code>422866</code> 来下载整本漫画</li>
+                <li>多个ID可以用逗号分隔，例如：<code>123456, 789012</code></li>
+            </ul>
+        </div>
+        
+        <div class="progress-section" id="progress-section" style="display: none;">
+            <h2>下载进度</h2>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <p id="status">正在准备下载...</p>
+        </div>
+        
+        <div class="result-section" id="result-section" style="display: none;">
+            <h2>下载完成</h2>
+            <p id="result-message"></p>
+            <button id="open-folder-btn">打开下载目录</button>
+        </div>
+        
+        <div class="error-section" id="error-section" style="display: none;">
+            <h2>下载出错</h2>
+            <p id="error-message"></p>
+            <button id="retry-btn">重试</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
