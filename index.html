@@ -13,6 +13,13 @@
             <p>这是一个基于JMComic-Crawler-Python项目的网页下载器，可以方便地下载禁漫天堂的漫画。</p>
         </div>
         
+        <div class="navigation">
+            <a href="/downloads" target="_blank" class="btn">查看已下载内容</a>
+            <a href="/tasks" target="_blank" class="btn">查看下载任务</a>
+            <a href="/USER_GUIDE.md" target="_blank" class="btn">使用指南</a>
+            <a href="/CODESPACES_GUIDE.md" target="_blank" class="btn">Codespaces使用说明</a>
+        </div>
+        
         <div class="input-section">
             <label for="comic-id">漫画ID:</label>
             <input type="text" id="comic-id" placeholder="请输入漫画ID，例如：422866">
@@ -27,6 +34,13 @@
             </ul>
         </div>
         
+        <div class="important-note">
+            <h3>重要说明</h3>
+            <p>⚠️ 所有用户共享同一个下载目录。您下载的文件对其他用户可见，其他用户下载的文件您也可以访问。</p>
+            <p>📝 请查看<a href="/USER_GUIDE.md" target="_blank">使用指南</a>了解更多使用说明。</p>
+            <p>💻 如果在Codespaces中使用，请查看<a href="/CODESPACES_GUIDE.md" target="_blank">Codespaces使用说明</a>。</p>
+        </div>
+        
         <div class="progress-section" id="progress-section" style="display: none;">
             <h2>下载进度</h2>
             <div class="progress-bar">
@@ -39,6 +53,7 @@
             <h2>下载完成</h2>
             <p id="result-message"></p>
             <button id="open-folder-btn">打开下载目录</button>
+            <a href="/downloads" target="_blank" class="btn">查看下载内容</a>
         </div>
         
         <div class="error-section" id="error-section" style="display: none;">

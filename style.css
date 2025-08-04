@@ -36,6 +36,29 @@ h3 {
     color: #666;
 }
 
+.navigation {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
 .input-section {
     display: flex;
     gap: 10px;

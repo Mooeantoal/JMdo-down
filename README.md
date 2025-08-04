@@ -41,6 +41,29 @@
 3. 等待下载完成（可以查看进度条）
 4. 下载完成后可以在 `downloads` 目录中找到下载的漫画
 
+## 下载目录位置说明
+
+下载的漫画文件保存位置取决于您运行应用程序的方式：
+
+### 本地运行
+当您在本地计算机上运行应用程序时，下载的文件会保存在项目目录中的 `downloads` 文件夹内。
+
+### 服务器/Codespaces运行
+当您在服务器或Codespaces等远程环境中运行应用程序时，下载的文件会保存在远程环境的文件系统中。
+
+您可以通过以下方式访问下载的文件：
+1. 点击网页界面上的"查看已下载内容"链接
+2. 直接浏览服务器文件系统（如果您有访问权限）
+3. 在Codespaces中通过文件浏览器下载文件到本地
+
+## 多用户使用说明
+
+当多个用户使用同一个下载器实例时，请参阅 [MULTIUSER_GUIDE.md](file:///c%3A/Users/mj102/Desktop/%E4%B8%8B%E8%BD%BD/JMdownloader2/MULTIUSER_GUIDE.md) 文件了解详细信息。
+
+## 在Codespaces中部署和共享
+
+如果您希望在GitHub Codespaces中部署此应用程序并与他人共享，请参阅 [CODESPACES_GUIDE.md](file:///c%3A/Users/mj102/Desktop/%E4%B8%8B%E8%BD%BD/JMdownloader2/CODESPACES_GUIDE.md) 文件了解详细说明。
+
 ## 项目结构
 
 ```
