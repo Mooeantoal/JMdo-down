@@ -64,6 +64,14 @@
 
 如果您希望在GitHub Codespaces中部署此应用程序并与他人共享，请参阅 [CODESPACES_GUIDE.md](file:///c%3A/Users/mj102/Desktop/%E4%B8%8B%E8%BD%BD/JMdownloader2/CODESPACES_GUIDE.md) 文件了解详细说明。
 
+## 部署到PythonAnywhere
+
+如果您希望将此应用程序部署到PythonAnywhere免费托管服务，请参阅 [PYTHONANYWHERE_DEPLOY.md](file:///c%3A/Users/mj102/Desktop/%E4%B8%8B%E8%BD%BD/JMdownloader2/PYTHONANYWHERE_DEPLOY.md) 文件了解详细说明。
+
+## 部署到ByetHost
+
+如果您希望将此应用程序部署到ByetHost免费或付费托管服务，请参阅 [BYETHOST_DEPLOY.md](file:///c%3A/Users/mj102/Desktop/%E4%B8%8B%E8%BD%BD/JMdownloader2/BYETHOST_DEPLOY.md) 文件了解详细说明。
+
 ## 项目结构
 
 ```
